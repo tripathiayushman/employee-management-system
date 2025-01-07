@@ -1,0 +1,117 @@
+/* Reset default margin and padding */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+  
+/* Body styles */  
+body {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: #f0f0f0;  
+}  
+  
+/* Container styles */  
+.container {  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    background-color: #fff;  
+    border-radius: 20px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+}  
+  
+/* Heading styles */  
+h1 {  
+    text-align: center;  
+    color: #333;  
+    margin-bottom: 20px;  
+}  
+  
+h2 {  
+    margin-top: 20px;  
+    margin-bottom: 10px;  
+    color: #333;  
+}  
+  
+/* Form styles */  
+form {  
+    margin-bottom: 20px;  
+}  
+  
+label {  
+    display: block;  
+    margin-bottom: 10px;  
+    color: #666;  
+    font-weight: bold;  
+}  
+  
+input[type="text"],  
+input[type="number"],  
+input[type="email"] {  
+    width: calc(100% - 20px);  
+    padding: 15px;  
+    margin-bottom: 20px;  
+    border: none;  
+    border-radius: 10px;  
+    background-color: #f5f5f5;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+button {  
+    width: 100%;  
+    padding: 15px;  
+    margin-top: 10px;  
+    background-color: #4CAF50;  
+    color: #fff;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+  
+button:hover {  
+    background-color: #45a049;  
+}  
+  
+/* Employee list styles */  
+#employeeList {  
+    margin-top: 20px;  
+}  
+  
+.employee {  
+    margin-bottom: 20px;  
+    padding: 20px;  
+    background-color: #f5f5f5;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+.employee h3 {  
+    margin-top: 0;  
+    color: #333;  
+    font-size: 18px;  
+}  
+  
+.employee p {  
+    color: #666;  
+    font-size: 16px;  
+    margin-bottom: 5px;  
+}  
+  
+.deleteBtn,  
+.renameBtn {  
+    padding: 10px;  
+    margin-top: 10px;  
+    background-color: #f44336;  
+    color: #fff;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.deleteBtn:hover,  
+.renameBtn:hover {  
+    background-color: #d32f2f;  
+}  
